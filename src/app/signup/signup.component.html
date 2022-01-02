@@ -1,0 +1,11 @@
+<section>
+  <h2>Kayıt Ol</h2>
+  <form [formGroup]="signupForm" (ngSubmit)="signUp()" action="#" method="post">
+    <input type="text" name="username" placeholder="Kullanıcı Adını Giriniz!"/>
+    <input type="email" name="email" placeholder="Email Giriniz!"/>
+    <input type="password" name="password" placeholder="Şifrenizi Giriniz!"/>
+    <input type="password" name="comformpassword" placeholder="Şifrenizi Tekrar Giriniz!"/>
+    <input type="submit" name="loginBtn" value="Kayıt" class="submit-btn"/>
+  </form>
+  <a style="color: blue; margin-top: 10px;" routerLink="/login">Giriş Yapmak İçin Tıklayınız!</a>
+</section>

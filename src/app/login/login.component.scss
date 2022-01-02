@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+section {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section input {
+    min-width: 300px;
+    display: block;
+    margin: 20px;
+    padding: 15px 5px;
+    font-weight: 400;
+    border-width: 0 0 2px 0;
+    border-color: #b9b9b9;
+    outline: none;
+}
+section input:focus {
+    border-color:blue;
+}
+section .submit-btn {
+    padding: 12px 5px;
+    border-width: 0;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: rgb(247, 129, 51);
+    color: #fff;
+    outline: none;
+}
+
+section .submit-btn:hover{
+    background-color: green;
+}
+section a {
+text-decoration:none;
+}
+section a:hover {
+    text-decoration: underline;
+}
